@@ -36,7 +36,7 @@ namespace Odevim
 		{
 			string yazilan = textBoxTahmin.Text;
 			char[] yazilanharfler = yazilan.ToCharArray();
-			string secilenharfler;
+			string secilenharfler="";
 			if (yazilan == secilenArac)
 			{
 				MessageBox.Show("Tebrikler buldunuz.");
